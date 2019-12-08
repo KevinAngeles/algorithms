@@ -37,7 +37,7 @@ public class BSTNode {
     if (k == null) {
       return null;
     }
-    if (k.equals(this.getKey)) {
+    if (k.equals(this.getKey())) {
       return this;
     } else if (k.compareTo(this.getKey()) < 0) {
       if (this.getLeft() == null) {
